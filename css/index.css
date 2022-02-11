@@ -221,10 +221,42 @@ body{
     background-color: #23597D;
 }
 .img-blog{
-    height: 442px;
-    width: 669px;
+    height: 400px;
+    width: 600px;
 }
 .partie-centre figcaption{
+    font-size: 50px;
+}
+.bloc-blog{
+    display: flex;
+    align-items: center;
+}
+.blog-gauche, .blog-droite{
+    width: 35%;
+}
+
+.blog-gauche{
+    margin-left: 45px;
+}
+.blog-droite{
+    margin-left: 90px;
+}
+.btn-voir-plus{
+    width: 10%;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 35px;
+    border: 1px solid #707070;
+    padding-bottom: 13px;
+    background-color: #F2E9E4;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 35px;
+}
+
+.titre-blog{
     font-size: 50px;
 }
 /*footer*/
