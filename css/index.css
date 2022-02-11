@@ -129,6 +129,12 @@ body{
     width: 353px;
     text-align: center;
 }
+@media screen and (max-width: 1300px) {
+    .texte-formation{
+        width: 320px;
+        transition: 0.5s;
+    }
+}
 .texte-formation p{
     position: relative;
     left: 51px;
@@ -219,6 +225,7 @@ body{
 /*blog article*/
 .partie-blog{
     background-color: #23597D;
+    padding-bottom: 55px;
 }
 .img-blog{
     height: 400px;
@@ -265,8 +272,52 @@ body{
 }
 .footer-logo{
     height: 103px;
-    width: 103px;
+    justify-content: space-evenly;
+    border-radius: 37px;
+    padding-bottom: 5px;
 }
 .footer-logo-ytb{
     height: 132px;
+}
+.titre-footer{
+    font-size: 33px;
+    font-style: italic;
+    margin: auto;
+}
+.footer-reseau, .footer-logo{
+    display: flex;
+}
+.footer-reseau{
+    padding-top: 20px;
+    text-align: center;
+}
+.logo-twitter{
+    position: relative;
+    left: -60px;
+}
+.container-horizontal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.horizontal{
+    height: 1px;
+    width: 200px;
+    border-top: 1px solid black;
+    padding-bottom: 30px;
+}
+.barre1{
+    /* width: 1310px; */
+    width: 83%;
+}
+.barre2{
+    width: 66%;
+}
+
+.footer-credit{
+    text-align: center;
+    position: relative;
+    top: -49px;
+    left: -7px;
+    font-size: 30px;
 }
