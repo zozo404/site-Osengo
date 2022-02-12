@@ -88,6 +88,7 @@ body{
 /*qsn qui sommes nous*/
 .partie-qsn{
     background-color: #23597D;
+    padding-bottom: 20px;
 }
 .div-qsn-img{
     display: flex;
@@ -209,6 +210,7 @@ body{
 /*nos centres*/
 .partie-centre{
     background-color: #F7B801;
+    padding-bottom: 20px;
 }
 .img-centre{
     height: 529px;
