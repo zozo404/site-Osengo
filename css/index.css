@@ -135,6 +135,11 @@ body{
         width: 320px;
         transition: 0.5s;
     }
+    .text-web, .text-langue, .text-commerce{
+        transition: 0.5s;
+        font-size: 32px;
+    }
+
 }
 .texte-formation p{
     position: relative;
