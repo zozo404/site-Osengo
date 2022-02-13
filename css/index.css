@@ -282,6 +282,7 @@ body{
     justify-content: space-evenly;
     border-radius: 37px;
     padding-bottom: 5px;
+    align-items: center;
 }
 .footer-logo-ytb{
     height: 132px;
